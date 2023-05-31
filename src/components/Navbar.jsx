@@ -83,13 +83,13 @@ const Navbar = () => {
           </Link>
 
           {/* Navigation for desktop  */}
-          <section className="hidden lg:flex lg:items-center relative">
+          <section className="hidden lg:flex lg:items-center">
             <input
               type="text"
               placeholder="Search a button"
-              className="p-2 bg-transparent hover:ring-2 rounded hover:ring-gray-300 focus:ring-0 duration-300"
+              className="relative p-2 bg-transparent hover:ring-2 rounded hover:ring-gray-300 focus:ring-0 duration-300"
             />
-            <SearchIcon className="absolute cursor-pointer ml-52" />
+            <SearchIcon className="cursor-pointer absolute left-[52%]" />
           </section>
 
           <section className="hidden lg:flex space-x-2">
